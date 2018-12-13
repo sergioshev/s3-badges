@@ -1,0 +1,37 @@
+{
+  "name": "s3-badges",
+  "version": "1.0.0",
+  "description": "Custom badges generation and publishing on aws s3 buckets",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergioshev/s3-badges.git"
+  },
+  "keywords": [
+    "badges",
+    "svg",
+    "coverage"
+  ],
+  "author": "Sergey Shevtsov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergioshev/s3-badges/issues"
+  },
+  "homepage": "https://github.com/sergioshev/s3-badges#readme",
+  "dependencies": {
+    "aws-sdk": "^2.375.0",
+    "babel": "^6.23.0",
+    "dotenv": "^6.2.0",
+    "gh-badges": "^2.1.0",
+    "https": "^1.0.0",
+    "istanbul": "^0.4.5"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.2.0",
+    "babel-core": "^6.26.3",
+    "mocha": "^5.2.0"
+  }
+}
