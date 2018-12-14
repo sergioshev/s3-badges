@@ -10,7 +10,7 @@ Currently suported:
 
 Install the package
 ```javascript
-npm install s3-badges nyc istanbul
+npm install --save-dev s3-badges nyc istanbul
 ```
 
 Configure your project with necesary info for badge generation.
@@ -50,3 +50,34 @@ https://s3-<ZONE>.amazonaws.com/<BUCKET>/<PROJECT_NAME>-coverage.svg created
 
 Now you can paste reported badge's link in your README.md file.
 
+# Suggestions
+
+##add spase folders to _.gitignore_
+
+```bash
+cd <project-root-folder>
+
+cat <<FFAA >>.gitignore 
+.nyc_output/
+.s3-badgesrc
+coverage/
+FFAA
+```
+
+##git pre-push hook for automatic badges update
+
+edit `.git/hooks/pre-push`
+
+```bash
+touch .git/hooks/pre-push
+chmod +x .git/hooks/pre-push
+
+cat <<FFAA >> .git/hooks/pre-push
+#!/bin/bash
+
+{
+  npm run test:coverage
+  npx update-badges
+}
+FFAA
+```
