@@ -1,0 +1,25 @@
+{
+	//path to project's root folder, default .
+	"projectRoot": ".",
+
+	//coverage critical level for red color
+	"coverageCriticalLevel": "50", //percentage
+
+	//coverage warning level for orange color
+	"coverageWarnLevel": "80",
+	
+	//name for the project
+  "projectName": "dms",
+
+  //amazon s3 configuration
+  "s3Bucket": "copa-badges",
+  "awsZone": "us-west-2",
+  "awsAccessKeyId": "<amazon-access-key>",
+  "awsSecretAccessKey": "<amazon-secret-key>",
+
+  //string to render inside badge
+  "subject": "coverage",
+
+  //path to istanbul report relative to projectRoot
+  "subjectDataSource": "coverage/coverage-summary.json"
+}

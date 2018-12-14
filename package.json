@@ -1,10 +1,13 @@
 {
   "name": "s3-badges",
   "version": "1.0.0",
-  "description": "Custom badges generation and publishing on aws s3 buckets",
+  "description": "Custom badges generation and publishing on aws s3 bucket",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
+  },
+  "bin": {
+    "update-badges": "src/s3-badges-cli.js"
   },
   "repository": {
     "type": "git",
@@ -25,9 +28,11 @@
     "aws-sdk": "^2.375.0",
     "babel": "^6.23.0",
     "dotenv": "^6.2.0",
+    "expand-tilde": "^2.0.2",
     "gh-badges": "^2.1.0",
     "https": "^1.0.0",
-    "istanbul": "^0.4.5"
+    "istanbul": "^0.4.5",
+    "rc": "^1.2.8"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.2.0",
