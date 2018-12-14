@@ -50,9 +50,9 @@ https://s3-<ZONE>.amazonaws.com/<BUCKET>/<PROJECT_NAME>-coverage.svg created
 
 Now you can paste reported badge's link in your README.md file.
 
-# Suggestions
+# Few hacks
 
-## add spase folders to _.gitignore_
+## add sparse folders to _.gitignore_
 
 ```bash
 cd <project-root-folder>
