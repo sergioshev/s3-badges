@@ -10,7 +10,7 @@ Currently suported:
 
 Install the package
 ```javascript
-npm install s3-badges
+npm install s3-badges nyc istanbul
 ```
 
 Configure your project with necesary info for badge generation.
