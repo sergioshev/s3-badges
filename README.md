@@ -30,9 +30,11 @@ _.s3-badgesrc_ minimal contents (JSON format)
 Configure your _package.json_ file to enable coverage report generation
 Add this line. Assuming you already have __good working__ _test_ command.
 
->...
->"test:coverage": "nyc --reporter=json-summary test",
->...
+```
+...
+"test:coverage": "nyc --reporter=json-summary test",
+...
+```
 
 # Usage
 
