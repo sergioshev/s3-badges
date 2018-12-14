@@ -13,11 +13,11 @@ Install the package
 npm install s3-badges
 ```
 
-Configure your project to with necesary info for badge generation.
-You have an _.s3-badgesrc.example_ you should paste in root folder
-with some options to configure.
+Configure your project with necesary info for badge generation.
+You have an _.s3-badgesrc.example_ you should paste in project's
+root folder with some options to configure.
 
-_.s3-badgesrc_ minimal contents (JSON format)
+_.s3-badgesrc_ with minimal options (JSON format)
 
 ```javascript
 {
