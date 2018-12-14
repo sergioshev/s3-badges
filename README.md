@@ -52,7 +52,7 @@ Now you can paste reported badge's link in your README.md file.
 
 # Suggestions
 
-##add spase folders to _.gitignore_
+## add spase folders to _.gitignore_
 
 ```bash
 cd <project-root-folder>
@@ -64,7 +64,7 @@ coverage/
 FFAA
 ```
 
-##git pre-push hook for automatic badges update
+## git pre-push hook for automatic badges update
 
 edit `.git/hooks/pre-push`
 
