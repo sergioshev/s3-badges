@@ -32,7 +32,7 @@ Add this line. Assuming you already have __good working__ _test_ command.
 
 ```
 ...
-"test:coverage": "nyc --reporter=json-summary test",
+"test:coverage": "nyc --reporter=json-summary npm test",
 ...
 ```
 
